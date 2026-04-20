@@ -68,8 +68,13 @@ cd news-article-classifier
 import nltk
 nltk.download('stopwords')
 ```
+### 3. Run the model 
 
-### 3. Run the application
+```bash
+python train_model.py
+```
+
+### 4. Run the application
 
 ```bash
 python app.py
@@ -87,8 +92,7 @@ http://127.0.0.1:5000/
 
 * Algorithm: **Multinomial Naive Bayes**
 * Feature Extraction: **TF-IDF**
-* Accuracy: **~X%** *(update with your result)*
-
+* Accuracy: **96%**
 ---
 
 ## 🧪 Example Input
